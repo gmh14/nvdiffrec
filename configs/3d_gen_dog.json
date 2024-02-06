@@ -1,0 +1,17 @@
+{
+    "ref_mesh": "data/nerd/ethiopianHead_rescaled",
+    "random_textures": true,
+    "iter": 5000,
+    "save_interval": 100,
+    "texture_res": [ 1024, 1024 ],
+    "train_res": [512, 512],
+    "batch": 8,
+    "learning_rate": [0.03, 0.03],
+    "dmtet_grid" : 128,
+    "env_scale" : 2.0,
+    "mesh_scale" : 1.0,
+    "camera_space_light" : true,
+    "background" : "white",
+    "display" : [{"bsdf":"kd"}, {"bsdf":"ks"}, {"bsdf" : "normal"}],
+    "out_dir": "3d_gen_dog"
+}
